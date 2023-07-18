@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,700;1,400&family=Rubik:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --cor-de-fundo: #2F5B00 ;
+    --cor-de-fundo-2:#A1C038 ;
+    --cor-fonte: #CED994;
+    --font-principal :'Josefin Sans', sans-serif;;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family:var(--font-principal) ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: var(--cor-fonte);
+    font-size: 4em;
+}
+p{
+    font-size: 1.5em;
+}
